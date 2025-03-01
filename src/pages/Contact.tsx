@@ -80,10 +80,10 @@ const Contact = () => {
               <h3 className="text-xl font-medium mb-2">Email Us</h3>
               <p className="text-neutral-600 mb-4">For general inquiries and bookings</p>
               <a
-                href="mailto:contact@sinhastudio.com"
+                href="mailto:clickcreationranchi@gmail.com"
                 className="text-black font-medium hover:underline"
               >
-                contact@sinhastudio.com
+                clickcreationranchi@gmail.com
               </a>
             </motion.div>
 
@@ -100,10 +100,10 @@ const Contact = () => {
               <h3 className="text-xl font-medium mb-2">Call Us</h3>
               <p className="text-neutral-600 mb-4">Mon-Fri from 9am to 6pm</p>
               <a
-                href="tel:+919876543210"
+                href="tel:+919234593650"
                 className="text-black font-medium hover:underline"
               >
-                +91 9876 543 210
+                +91 9234593650
               </a>
             </motion.div>
 
@@ -120,8 +120,8 @@ const Contact = () => {
               <h3 className="text-xl font-medium mb-2">Visit Us</h3>
               <p className="text-neutral-600 mb-4">Our studio is open for appointments</p>
               <address className="text-black font-medium not-italic">
-                123 Photography Lane<br />
-                New Delhi, 110001
+                Sector-2 , HEC<br />
+                Ranchi, 834004
               </address>
             </motion.div>
           </div>
@@ -270,7 +270,7 @@ const Contact = () => {
             >
               <h3 className="text-lg font-medium mb-2">What areas do you serve?</h3>
               <p className="text-neutral-600">
-                We primarily serve Delhi NCR, but we're available for travel throughout India and internationally for select projects.
+                We primarily serve Ranchi, but we're available for travel throughout India for select projects.
               </p>
             </motion.div>
 
@@ -283,7 +283,7 @@ const Contact = () => {
             >
               <h3 className="text-lg font-medium mb-2">How far in advance should I book?</h3>
               <p className="text-neutral-600">
-                For weddings, we recommend booking 6-12 months in advance. For other sessions, 2-4 weeks notice is usually sufficient, but availability may vary during peak seasons.
+                For weddings, we recommend booking 3-4 months in advance. For other sessions, 2-4 weeks notice is usually sufficient, but availability may vary during peak seasons.
               </p>
             </motion.div>
 
