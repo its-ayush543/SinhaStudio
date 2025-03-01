@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Instagram, Facebook, Twitter, Mail } from 'lucide-react';
 import Logo from './Logo';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -24,24 +25,24 @@ const Footer = () => {
             <h3 className="text-lg font-medium mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="text-neutral-400 hover:text-white transition-colors">
+                <Link to="/" className="text-neutral-400 hover:text-white transition-colors">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-neutral-400 hover:text-white transition-colors">
+                <Link to="/about" className="text-neutral-400 hover:text-white transition-colors">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/projects" className="text-neutral-400 hover:text-white transition-colors">
+                <Link to="/projects" className="text-neutral-400 hover:text-white transition-colors">
                   Projects
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-neutral-400 hover:text-white transition-colors">
+                <Link to="/contact" className="text-neutral-400 hover:text-white transition-colors">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
